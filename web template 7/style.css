@@ -1,0 +1,899 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 1000px;
+    width: 100%;
+    /* border: 1px solid black ; */
+    background-image:linear-gradient(rgba(15,23,43, .9),rgba(15,23,43,.9)) ,url(images/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.subheader{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.subheader .logo{
+    height: 100px;
+    width: 15%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo .fa-utensils{
+    font-size: 50px;
+    color: #fea116;
+}
+.logo a{
+    text-decoration: none;
+    color: #fea116;
+    font-size: 50px;
+    padding-left: 20px;
+}
+.subheader nav{
+    height: 100px;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+.subheader nav ul{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.subheader nav ul li{
+    list-style: none;
+}
+.subheader nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.subheader nav ul li a:hover{
+    color: #fea116;
+}
+.subheader .table{
+    height: 80px;
+    width: 15%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table button{
+    height: 60px;
+    width: 200px;
+    background-color: #fea116;
+    border: 1px solid #fea116;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.table button:hover{
+    background: transparent;
+}
+header .enjoy{
+    height: 500px;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+header .enjoy h1{
+    font-size: 80px;
+    color: white;
+}
+header .enjoy p{
+    font-size: 22px;
+    color: white;
+}
+.enjoy button{
+    height: 60px;
+    width: 200px;
+    background-color: #fea116;
+    border: 1px solid #fea116;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.enjoy button:hover{
+    background: transparent;
+}
+header .bg1{
+    height: 700px;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .bg1 img{
+    width: 80%;
+}
+/* header is over */
+
+/* section a1 is start */
+#a1{
+    height: 550px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a1 .about{
+    height: 400px;
+    width: 85%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.ab1,.ab2,.ab3,.ab4{
+    height: 100%;
+    width: 23%;
+    /* border: 1px solid black; */
+    position: relative;
+    transition: 1s;
+    background-color: #F1F8FF;
+}
+.ab1 .fa-user-tie{
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+    color: #fea116;
+}
+.ab1 h1{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+}
+.ab1 p{
+    position: absolute;
+    top: 180px;
+    font-size: 22px;
+}
+/* .ab1:hover{
+    background-color: #fea116;
+    color: white;
+}
+.ab1 .fa-user-tie:hover{
+    color: white;   
+} */
+.ab2 .fa-utensils{
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+    color: #fea116;
+}
+.ab2 h1{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+}
+.ab2 p{
+    position: absolute;
+    top: 180px;
+    font-size: 22px;
+}
+.ab3 .fa-cart-plus{
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+    color: #fea116;
+}
+.ab3 h1{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+}
+.ab3 p{
+    position: absolute;
+    top: 180px;
+    font-size: 22px;
+}
+.ab4 .fa-headset{
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+    color: #fea116;
+}
+.ab4 h1{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+}
+.ab4 p{
+    position: absolute;
+    top: 180px;
+    font-size: 22px;
+}
+
+/* section a1 is over */
+
+/* seciton a2 is start */
+
+#a2{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+#a2 .menu{
+    height: 150px;
+    width: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.menu h1{
+    color: #fea116;
+    font-size: 25px;
+    font-family:  'Pacifico', cursive;
+}
+.menu h2{
+    font-size: 60px;
+    color: #0F172B;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main{
+    height: 700px;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1,.menu2{
+    height: 700px;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.c1,.c2,.c3,.c4{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.c1 img{
+    width: 18%;
+    height: 100%;
+}
+.c1 h1{
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    left: 170px;
+}
+.c1 p{
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+.c1 h2{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fea116;
+}
+.c2 img{
+    width: 18%;
+    height: 100%;
+}
+.c2 h1{
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    left: 170px;
+}
+.c2 p{
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+.c2 h2{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fea116;
+}
+.c3 img{
+    width: 18%;
+    height: 100%;
+}
+.c3 h1{
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    left: 170px;
+}
+.c3 p{
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+.c3 h2{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fea116;
+}
+.c4 img{
+    width: 18%;
+    height: 100%;
+}
+.c4 h1{
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    left: 170px;
+}
+.c4 p{
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+.c4 h2{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fea116;
+}
+
+/* section a2 is over */
+
+/* section a3 is start */
+
+#a3{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#a3 .reservation{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a3 .res1{
+    height: 100%;
+    width: 50%;
+}
+#a3 .res2{
+    height: 100%;
+    width: 50%;
+    background-color: #0F172B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.res2 .res21{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+.res2 .re{
+    height: 50px;
+    width: 450px;
+    font-family:  'Pacifico', cursive;
+    color: #fea116;
+    font-weight: 400;
+    font-size: 30px;
+}
+.boo{
+    height: 50px;
+    width: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+.res2 input{
+    height: 80px;
+    width: 350px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.res2 select {
+    height: 80px;
+    width: 350px;
+    font-size: 20px;
+}
+.res2 #mes{
+    height: 120px;
+    width: 775px;
+}
+.res2 button{
+    height: 80px;
+    width: 775px;
+    background-color: #fea116;
+    border: 1px solid #fea116;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+}
+.res2 button:hover{
+    transform: scale(1.2);
+}
+
+/* section a3 is over */
+
+/* section a4 is start */
+
+#a4{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+#a4 .team{
+    height: 150px;
+    width: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.team h1{
+    color: #fea116;
+    font-size: 30px;
+    font-family:  'Pacifico', cursive;
+}
+.team h2{
+    font-size: 60px;
+    color: #0F172B;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.chef{
+    height: 600px;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.chef1,.chef2,.chef3,.chef4{
+    height: 90%;
+    width: 23%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.chefimg1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* border: 1px solid black ; */
+}
+.chef1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.chef1 .mr{
+    height: 100px;
+    width: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.chef1 h1{
+    font-size: 50px;
+}
+.chef1 h2{
+    font-size: 25px;
+}
+.social{
+    height: 50px;
+    width: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.fa-instagram{
+    color: #fea116;
+    font-size: 40px;
+}
+.fa-instagram:hover{
+    color: #0F172B;
+    transition: 1s;
+}
+.fa-facebook{
+    color: #fea116;
+    font-size: 40px;
+}
+.fa-facebook:hover{
+    color: #0F172B;
+    transition: 1s;
+}
+.fa-twitter{
+    color: #fea116;
+    font-size: 40px;
+}
+.fa-twitter:hover{
+    color: #0F172B;
+    transition: 1s;
+}
+.chef2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.chef2 .mr{
+    height: 100px;
+    width: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.chef2 h1{
+    font-size: 50px;
+}
+.chef2 h2{
+    font-size: 25px;
+}
+.chef3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.chef3 .mr{
+    height: 100px;
+    width: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.chef3 h1{
+    font-size: 50px;
+}
+.chef3 h2{
+    font-size: 25px;
+}
+.chef4 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.chef4 .mr{
+    height: 100px;
+    width: 325px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.chef4 h1{
+    font-size: 50px;
+}
+.chef4 h2{
+    font-size: 25px;
+}
+
+/* section a4 is over */
+
+/* section a5 is start */
+
+#a5{
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#a5 .clients{
+    height: 100px;
+    width: 500px;
+    /* border: 1px solid  black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#a5 .clients h1{
+    font-size: 30px;
+    font-family:  'Pacifico', cursive;
+}
+#a5 .clients h2{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.cli{
+    height: 400px;
+    width: 85%;
+    /* border: 1px solid black;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.client1,.client2,.client3{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.clu1{
+    height: 90%;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+#quote{
+    font-size: 60px;
+    color: #fea116;
+}
+.client1 p{
+    text-align: center;
+    font-size: 20px;
+}
+.client1 .d1{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(images/testimonial-1.jpg);
+}
+.client1 h1{
+    font-size: 35px;
+    padding-left: 20px;
+}
+.client2 p{
+    text-align: center;
+    font-size: 20px;
+}
+.client2 .d1{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(images/testimonial-2.jpg);
+}
+.client2 h1{
+    font-size: 35px;
+    padding-left: 20px;
+}
+.client3 p{
+    text-align: center;
+    font-size: 20px;
+}
+.client3 .d1{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(images/testimonial-3.jpg);
+}
+.client3 h1{
+    font-size: 35px;
+    padding-left: 20px;
+}
+
+/* section a5 is over */
+
+/* footer is start */
+
+footer{
+    height: 550px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #0F172B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.foo1{
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.f1,.f2,.f3,.f4{
+    height: 100%;
+    width: 22%;
+    /* border: 1px solid white; */
+    position: relative;
+}
+.f1 h1{
+    font-family:  'Pacifico', cursive;
+    color: #fea116;
+}
+.f1 #b{
+    overflow: hidden;
+    margin-top:30px;
+    width: 70%;
+    /* border: 1px  solid black; */
+}
+.f1 a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+    transition: 1s;
+    /* padding-left: 20px; */
+}
+.f1 a:hover{
+    transform: scale(1.1);
+    padding-left: 20px;
+}
+.f2 h1{
+    font-family:  'Pacifico', cursive;
+    color: #fea116;
+}
+.fa-phone{
+    position: absolute;
+    font-size: 25px;
+    top: 105px;
+    color: white;
+}
+.sp1{
+    position: absolute;
+    font-size: 25px;
+    top: 105px;
+    left: 50px;
+    color: white;
+}
+.fa-location-dot{
+    position: absolute;
+    font-size: 25px;
+    top: 155px;
+    color: white;
+}
+.sp2{
+    position: absolute;
+    font-size: 25px;
+    top: 155px;
+    color: white;
+    left: 50px;
+}
+.fa-envelope{
+    position: absolute;
+    font-size: 25px;
+    top: 205px;
+    color: white;
+}
+.sp3{
+    position: absolute;
+    font-size: 25px;
+    top: 205px;
+    color: white;
+    left: 50px;
+}
+.f3 h1{
+    color: #fea116;
+    font-family:  'Pacifico', cursive;
+}
+.f3 h2{
+    color: white;
+    position: absolute;
+    top: 95px;
+    font-size: 25px;
+}
+.f3 h3{
+    color: white;
+    position: absolute;
+    top: 135px;
+    font-size: 25px;
+}
+#sun{
+    color: white;
+    position: absolute;
+    top: 205px;
+    font-size: 25px;
+}
+#sunday{
+    color: white;
+    position: absolute;
+    top: 245px;
+    font-size: 25px;
+}
+.f4 h1{
+    color: #fea116;
+    font-family:  'Pacifico', cursive;
+}
+.f4 p{
+    font-size: 22px;
+    color: white;
+    padding-top: 30px;
+}
+.f4 input{
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.f4 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #fea116;
+    border: 1px solid #fea116;
+    color: white;
+    font-size: 20px;
+}
