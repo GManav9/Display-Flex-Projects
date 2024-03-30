@@ -1,0 +1,723 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 800px;
+    width: 100%;
+    background-image: url(img/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.subheader{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.subheader .logo
+{
+    height: 100%;
+    width: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subheader nav{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+.subheader nav ul{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.subheader nav ul li{
+    list-style: none;
+}
+.subheader nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    position: relative;
+}
+.subheader nav ul li a::before{
+    content: " ";
+    height: 5px;
+    width: 5%;
+    background-color: black;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 1s;
+    opacity: 0;
+}
+.subheader nav ul li a:hover::before{
+    width: 100%;
+    opacity: 1;
+}
+.welcome{
+    height: 400px;
+    width: 700px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.welcome h1{
+    color: whitesmoke;
+    font-size: 45px;
+    position: absolute;
+    left: 230px;
+    top: 20px;
+}
+.welcome h2{
+    position: absolute;
+    top: 80px;
+    left: 160px;
+    color: whitesmoke;
+    font-size: 100px;
+}
+.welcome p{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.welcome button{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.welcome button:hover{
+    background-color: #bf3d42;
+    border: 2px solid black;
+}
+
+/* header is start */
+
+/* section a1 is start */
+
+#a1{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#a1 .about{
+    height: 70%;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.ab1,.ab2{
+    height: 100%;
+    width: 48%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.ab1 h1{
+    font-size: 50px;
+    display: inline;
+}
+.ab1 p{
+    font-size: 18px;
+    text-align: center;
+}
+.ab1 button{
+    height: 50px;
+    width: 200px;
+    background-color: #bf3d42;
+    border: 2px solid white;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.ab1 button:hover{
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: 5px 2px 2px 5px  inset;
+}
+
+/* section a1 is over */
+
+/* section a2 is start */
+
+#a2{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.all{
+    height: 120px;
+    width: 800px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.all h1{
+    display: inline;
+    font-size: 50px;
+}
+.all p{
+    font-size: 18px;
+}
+.games{
+    height: 600px;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.game1{
+    height: 580px;
+    width: 250px;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    background-image: url(img/img-2.png);
+    position: relative;
+}
+.g1{
+    height: 60px;
+    width: 60px;
+    border: 2px solid #bf3d42;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 64%;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.g1 h1{
+    font-size: 25px;
+}
+.game1 h2{
+    position: absolute;
+    top: 78%;
+    color: white;
+    left: 27%;
+}
+.game1 p{
+    position: absolute;
+    top: 85%;
+    color: white;
+    text-align: center;
+}
+.game2{
+    height: 480px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-image: url(img/img-3.png);
+    position: relative;
+}
+.g2{
+    height: 60px;
+    width: 60px;
+    border: 2px solid #bf3d42;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 58%;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.game2 h2{
+    position: absolute;
+    top: 74%;
+    color: white;
+    left: 10%;
+}
+.game2 p{
+    position: absolute;
+    top: 83%;
+    color: white;
+    text-align: center;
+}
+.game3{
+    height: 400px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-image: url(img/img-4.png);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.g3{
+    height: 60px;
+    width: 60px;
+    border: 2px solid #bf3d42;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 46%;
+    left: 39%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.game3 h2{
+    position: absolute;
+    top: 65%;
+    color: white;
+    left: 27%;
+}
+.game3 p{
+    position: absolute;
+    top: 75%;
+    color: white;
+    text-align: center;
+}
+.game4{
+    height: 320px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-image: url(img/img-5.png);
+    position: relative;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.g4{
+    height: 60px;
+    width: 60px;
+    border: 2px solid #bf3d42;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.game4 h2{
+    position: absolute;
+    top: 62%;
+    color: white;
+    left: 32%;
+}
+.game4 p{
+    position: absolute;
+    top: 76%;
+    color: white;
+    text-align: center;
+}
+
+/* section a2 is over */
+
+/* section a3 is start */
+
+#a3{
+    height: 600px;
+    width: 100%;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how{
+    height: 80%;
+    width: 60%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.how h1{
+    font-size: 50px;
+    color: white;
+    display: inline;
+}
+.how p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.ps{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.p1,.p2,.p3,.p4
+{
+    height: 150px;
+    width: 22%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.how button{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    border: 2px solid #bf3d42;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+    transition: 1s;
+}
+.how button:hover{
+    background-color: #bf3d42;
+}
+
+/* section a3 is over */
+
+/* section a4 is start */
+
+#a4{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.casino{
+    height: 600px;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.casino h1{
+    font-size: 50px;
+    display: inline;
+}
+.casino p{
+    font-size: 20px;
+    text-align: center;
+}
+.plans{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan1,.plan2,.plan3{
+    height: 85%;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.pl1{
+    height: 60%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.pl1 h2{
+    font-size: 45px;
+    color: #bf3d42;
+}
+.pl1 h3{
+    font-size: 30px;
+}
+.plan1 button{
+    height: 50px;
+    width: 150px;
+    background-color: #bf3d42;
+    border: 2px solid #bf3d42;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+    transition: 1s;
+}
+.plan1 button:hover{
+    background-color: #121212;
+    border: 1px solid #121212;
+}
+.plan2 button{
+    height: 50px;
+    width: 150px;
+    background-color: #bf3d42;
+    border: 2px solid #bf3d42;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+    transition: 1s;
+}
+.plan2 button:hover{
+    background-color: #121212;
+    border: 1px solid #121212;
+}
+.plan3 button{
+    height: 50px;
+    width: 150px;
+    background-color: #bf3d42;
+    border: 2px solid #bf3d42;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+    transition: 1s;
+}
+.plan3 button:hover{
+    background-color: #121212;
+    border: 1px solid #121212;
+}
+
+/* section a4 is over */
+
+/* section a5 is start */
+
+#a5{
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#a5 .contact{
+    height: 500px;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.touch{
+    height: 100px;
+    width: 800px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.touch h1{
+    font-size: 50px;
+    display: inline;
+}
+.contact1,.contact2{
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+.contact1 input{
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+}
+.contact1 select{
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+}
+.contact1 button{
+    height: 50px;
+    width: 150px;
+    background-color: #bf3d42;
+    border: 2px solid #bf3d42;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+    transition: 1s;
+    margin-top: 50px;
+}
+.contact1 button:hover{
+    background-color: black;
+    border: 2px solid black;
+    box-shadow: 5px 2px 2px 5px  inset;
+}
+
+/* section a5 is over */
+
+/* footer is start */
+
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.foo{
+    height: 350px;
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.foo1,.foo2,.foo3{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid white; */
+    position: relative;
+    
+}
+.foo1 h1{
+    color: white;
+}
+.foo1 #b{
+    overflow: hidden;
+    margin-top:30px;
+    width: 70%;
+    /* border: 1px  solid black; */
+}
+.foo1 a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+    transition: 1s;
+}
+.foo1 a:hover{
+    transform: scale(1.1);
+    padding-left: 20px;
+}
+.foo2 h1{
+    color: white;
+}
+.soc{
+    color: white;
+    height: 200px;
+    width: 180px;
+    /* border: 1px solid black; */
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.foo2 i:hover{
+    transform: scale(1.1);
+    /* padding-left: 20px; */
+}
+.foo3 h1{
+    color: white;
+}
+.fa-phone{
+    position: absolute;
+    font-size: 25px;
+    top: 105px;
+    color: white;
+    cursor: pointer;
+}
+.sp1{
+    position: absolute;
+    font-size: 25px;
+    top: 105px;
+    left: 50px;
+    color: white;
+    cursor: pointer;
+}
+.fa-location-dot{ 
+    position: absolute;
+    font-size: 25px;
+    top: 155px;
+    color: white;
+    cursor: pointer;
+}
+.sp2{
+    position: absolute;
+    font-size: 25px;
+    top: 155px;
+    color: white;
+    left: 50px;
+    cursor: pointer;
+}
+.fa-envelope{
+    position: absolute;
+    font-size: 25px;
+    top: 205px;
+    color: white;
+    cursor: pointer;
+}
+.sp3{
+    position: absolute;
+    font-size: 25px;
+    top: 205px;
+    color: white;
+    left: 50px;
+    cursor: pointer;
+}
