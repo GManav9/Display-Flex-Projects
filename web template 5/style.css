@@ -1,0 +1,876 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+header .logo{
+    height: 100%;
+    width: 12%;
+    background-color: #ff3e41;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .logo h1{
+    color: white;
+}
+header nav{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+header nav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    transition: 1s;
+}
+header nav ul li a:hover{
+    color: #ff3e41;
+    box-shadow: 5px 5px;
+}
+
+/* header is over */
+
+/* section a1 is start */
+
+#a1{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5) ), url(images/carousel-1.jpg);
+    display: flex;
+    align-items: center;
+    
+}
+#a1 .c1{
+    height: 55%;
+    width: 45%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#a1 .c1 h4{
+    color: white;
+    font-size: 25px;
+}
+#a1 .c1 h1{
+    font-size: 60px;
+    color: white;
+}
+#a1 .c1 p{
+    font-size: 20px;
+    color: white;
+}
+#a1 .c1 .r{
+    height: 50px;
+    width: 180px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+#a1 .c1 .r:hover{
+    background-color: #51CFED;
+    border: 1px solid #51CFED;
+}
+#a1 .c1 .f{
+    height: 50px;
+    width: 180px;
+    background-color: #51CFED;
+    border: 1px solid #51CFED;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 20px;
+}
+#a1 .c1 .f:hover{
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+}
+
+/* section a1 is over */
+
+/* section a2 is start */
+
+#a2{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#a2 .about{
+    height: 100%;
+    width: 85%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+#a2 .about .ab1{
+    height: 600px;
+    width: 50%;
+    /* border: 1px solid black; */
+    background-image: url(images/about.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#a2 .about .ab2{
+    height: 600px;
+    width: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about .ab2 h6{
+    color: #51CFED;
+    font-size: 23px;
+}
+.about .ab2 h1{
+    font-size: 45px;
+}
+.about .ab2 p{
+    font-size: 22px;
+}
+.ab2 .global{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.fa-globe{
+    color: #ff3e41;
+}
+.ab2 .global h2{
+    position: absolute;
+    top: 60px;
+}
+.ab2 .global p{
+    font-size: 18px;
+    position: absolute;
+    top: 100px;
+}
+.ab2 .global button{
+    height: 50px;
+    width: 200px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 1s;
+}
+.ab2 .global button:hover{
+    color: black;
+    background-color: white;
+}
+.ab2 .on{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.fa-shipping-fast{
+    color: #ff3e41;
+}
+.ab2 .on h2{
+    position: absolute;
+    top: 60px;
+}
+.ab2 .on p{
+    font-size: 18px;
+    position: absolute;
+    top: 100px;
+}
+
+/* section a2 is over */
+
+
+/* section a3 is srart */
+
+#a3{
+    height: 1250px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#a3 .explore{
+    height: 100px;
+    width: 650px;
+    /* border: 1px solid black; */
+}
+#a3 .explore h2{
+    text-align: center;
+    color: #51CFED;
+}
+#a3 .explore h1{
+    text-align: center;
+    font-size: 50px;
+}
+#a3 .services{
+    height: 1000px;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.services1,.services2,.services3,.services4,.services5,.services6{
+    height: 450px;
+    flex-basis: 30%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.services1 img{
+    width: 100%;
+    height: 60%;
+}
+.services1 .arrow{
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+.services1 .more{
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    opacity: 0;
+    transition: 1s;
+}
+.services1 .more:hover{
+    opacity: 1;
+}
+.services1 h1{
+    font-size: 30px;
+}
+.services1 p{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+}
+.services2 img{
+    width: 100%;
+    height: 60%;
+}
+.services2 .arrow{
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+.services2 .more{
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    opacity: 0;
+    transition: 1s;
+}
+.services2 .more:hover{
+    opacity: 1;
+}
+.services2 h1{
+    font-size: 30px;
+}
+.services2 p{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+}
+.services3 img{
+    width: 100%;
+    height: 60%;
+}
+.services3 .arrow{
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+.services3 .more{
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    opacity: 0;
+    transition: 1s;
+}
+.services3 .more:hover{
+    opacity: 1;
+}
+.services3 h1{
+    font-size: 30px;
+}
+.services3 p{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+}
+.services4 img{
+    width: 100%;
+    height: 60%;
+}
+.services4 .arrow{
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+.services4 .more{
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    opacity: 0;
+    transition: 1s;
+}
+.services4 .more:hover{
+    opacity: 1;
+}
+.services4 h1{
+    font-size: 30px;
+}
+.services4 p{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+}
+.services5 img{
+    width: 100%;
+    height: 60%;
+}
+
+.services5 .arrow{
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+.services5 .more{
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    opacity: 0;
+    transition: 1s;
+}
+.services5 .more:hover{
+    opacity: 1;
+}
+.services5 h1{
+    font-size: 30px;
+}
+.services5 p{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+}
+.services6 img{
+    width: 100%;
+    height: 60%;
+}
+.services6 .arrow{
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+.services6 .more{
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    opacity: 0;
+    transition: 1s;
+}
+.services6 .more:hover{
+    opacity: 1;
+}
+.services6 h1{
+    font-size: 30px;
+}
+.services6 p{
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+}
+
+/* section a3 is over */
+
+/* section a4 is start */
+
+#a4{
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a4 .contact{
+    height: 90%;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a4 .contact .contact1{
+    height: 70%;
+    flex-basis: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#a4 .contact .contact1 h2{
+    color: #51CFED;
+    font-size: 25px;
+}
+#a4 .contact .contact1 h1{
+    font-size: 50px;
+}
+#a4 .contact .contact1 p{
+    font-size: 22px;
+}
+.contact .contact1 .head1{
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ff3e41;
+    background-color: #ff3e41;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact1 .head{
+    height: 100px;
+    width: 60%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.head1 .fa-headphones-simple{
+    font-size: 35px;
+}
+.contact1 h4{
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 80px;
+}
+.contact1 h5{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    font-size: 25px;
+}
+#a4 .contact .contact2{
+    height: 70%;
+    flex-basis: 55%;
+    /* border: 1px solid black; */
+    background-color: #F8F2F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact2 input{
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+.contact2 #spe{
+    width: 85%;
+}
+.contact2 button{
+    width: 85%;
+    height: 60px;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.contact2 button:hover{
+    background-color: #F8F2F0;
+    color: black;
+}
+/* section a4 is over */
+
+/* seciton a5 is start */
+
+#a5{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#a5 .expert{
+    height: 100px;
+    width: 600px;
+    /* border: 1px solid black; */
+}
+#a5 .expert h1{
+    text-align: center;
+    font-size: 30px;
+    color: #51CFED;
+}
+#a5 .expert h2{
+    font-size: 50px;
+    text-align: center;
+}
+#a5 .ourteam{
+    height: 65%;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.team1,.team2,.team3,.team4{
+        height: 100%;
+        flex-basis: 23%;
+        /* border: 1px solid black; */
+        position: relative;
+}
+.social{
+    height: 50px;
+    width: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    position: absolute;
+    left: 80px;
+    bottom: 10px;
+}
+.fa-instagram{
+    color: #ff3e41;
+    font-size: 40px;
+}
+.fa-instagram:hover{
+    box-shadow: 5px 5px black;
+    transition: 1s;
+}
+.fa-facebook{
+    color: #ff3e41;
+    font-size: 40px;
+}
+.fa-facebook:hover{
+    box-shadow: 5px 5px black;
+    transition: 1s;
+}
+.fa-twitter{
+    color: #ff3e41;
+    font-size: 40px;
+}
+.fa-twitter:hover{
+    box-shadow: 5px 5px black;
+    transition: 1s;
+}
+.team1 h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.team1 h4{
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+}
+.team2 h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.team2 h4{
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+}
+.team3 h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.team3 h4{
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+}
+.team4 h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.team4 h4{
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+/* section a5 is over */
+
+/* footer is start */
+
+footer{
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: black;
+    background-image: url(images/map.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foo{
+    height: 80%;
+    width: 75%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.foo1,.foo2,.foo3,.foo4{
+    height: 100%;
+    width: 23%;
+    /* border: 1px solid white; */
+    position: relative;
+}
+.foo1 h1{
+    color: white;
+}
+.fa-phone{
+    position: absolute;
+    font-size: 25px;
+    top: 80px;
+    color: white;
+}
+.sp1{
+    position: absolute;
+    font-size: 25px;
+    top: 80px;
+    left: 50px;
+    color: white;
+}
+.fa-location-dot{
+    position: absolute;
+    font-size: 25px;
+    top: 130px;
+    color: white;
+}
+.sp2{
+    position: absolute;
+    font-size: 25px;
+    top: 130px;
+    color: white;
+    left: 50px;
+}
+.fa-envelope{
+    position: absolute;
+    font-size: 25px;
+    top: 180px;
+    color: white;
+}
+.sp3{
+    position: absolute;
+    font-size: 25px;
+    top: 180px;
+    color: white;
+    left: 50px;
+}
+.foo2 h1{
+    color: white;
+}
+.foo2 #a{
+    margin-top: 30px;
+}
+.foo2 a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+}
+.foo3 h1{
+    color: white;
+}
+.foo3 #b{
+    margin-top:30px;
+}
+.foo3 a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+}
+.foo4 h1{
+    color: white;
+}
+.foo4 p{
+    font-size: 22px;
+    color: white;
+    padding-top: 30px;
+}
+.foo4 input{
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.foo4 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #ff3e41;
+    border: 1px solid #ff3e41;
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+}
+.foo4 button:hover{
+    background: transparent;
+}
