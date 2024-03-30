@@ -1,0 +1,637 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 1000px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(img/banner.jpg);
+}
+.subheader{
+    height: 100px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.subheader .logo{
+    height: 100%;
+    width: 15%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+}
+.subheader nav{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid white; */
+}
+.subheader nav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.subheader nav ul li{
+    list-style: none;
+}
+.subheader nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    position: relative;
+}
+.subheader nav ul li a::before{
+    content: " ";
+    background-color: white;
+    height: 5px;
+    width: 5%;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 1s;
+    opacity: 0;
+}
+.subheader nav ul li a:hover:before{
+    width: 100%;
+    opacity: 1;
+}
+.subheader .login{
+    height: 100%;
+    width: 15%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.subheader .login a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.fa-magnifying-glass{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.creative{
+    height: 500px;
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    margin-right: 450px;
+}
+.creative h1{
+    font-size: 80px;
+    color: white;
+}
+.creative p{
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+}
+.creative #aboutcompany{
+    height: 60px;
+    width: 210px;
+    font-size:20px;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 1s;
+}
+.creative #aboutcompany:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.creative #contact{
+    height: 60px;
+    width: 210px;
+    font-size:20px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 1s;
+}
+.creative #contact:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+/* header is over */
+
+/* section a1 is start */
+
+#a1{
+    height: 750px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#a1 #h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.what{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.what1,.what2,.what3{
+    height: 500px;
+    width: 20%;
+    border: 1px solid black;
+    position: relative;
+}
+.what1 img{
+    position: absolute;
+    left: 40%;
+    top: 40px;
+}
+.what1 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 150px;
+}
+.what1 p{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 40px;
+}
+.what1 button{
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 40px;
+    background: transparent;
+    border: transparent;
+    transition: 1s;
+
+}
+.what1 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: 1s;
+}
+.what2 img{
+    position: absolute;
+    left: 40%;
+    top: 40px;
+}
+.what2 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 150px;
+}
+.what2 p{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 40px;
+}
+.what2 button{
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 40px;
+    background: transparent;
+    transition: 1s;
+    border: transparent;
+}
+.what2 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: 1s;
+}
+.what3 img{
+    position: absolute;
+    left: 40%;
+    top: 40px;
+}
+.what3 h1{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 150px;
+}
+.what3 p{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 40px;
+}
+.what3 button{
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 40px;
+    background: transparent;
+    border: transparent;
+    transition: 1s;
+}
+.what3 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: 1s;
+}
+/* section a1 is over */
+
+/* section a2 is start */
+
+#a2{
+    height: 850px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(img/about_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#a2 #h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;    
+}
+#a2 p{
+    font-size: 22px;
+    color: white;
+    padding-top: 20px;
+}
+
+/* section a2 is over */
+
+/* section a3 is start */
+
+#a3{
+    height: 1500px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#a3 .text{
+    height: 100px;
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: end;
+    align-items: center ;
+    margin-top: 100px;
+}
+.text h1{
+    font-size: 50px;
+}
+.we{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    justify-content: space-evenly;
+}
+.we1,.we2{
+    height: 500px;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+#we{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    justify-content: space-evenly;
+}
+.we3,.we4{
+    height: 500px;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+#a3 button{
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    background-color: rgba(39, 43, 44, 0.87);
+    border: 1px solid rgba(39, 43, 44, 0.87);
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+#a3 button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* section a3 is over */
+
+/* /section a4 is over  */
+
+#a4{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(39, 43, 44, 0.87) ;
+}
+.a4{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.why{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.why1,.why2,.why3{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid white; */
+}
+.why1 h1{
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+}
+.why1 h2{
+    font-size: 50px;
+    color: white;
+    /* padding-top: 50px; */
+}
+.why1 button{
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.why1 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.why2 h1{
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+}
+.why2 h2{
+    font-size: 50px;
+    color: white;
+    /* padding-top: 50px; */
+}
+.why2 button{
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.why2 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.why3 h1{
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+}
+.why3 h2{
+    font-size: 50px;
+    color: white;
+    /* padding-top: 50px; */
+}
+.why3 button{
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.why3 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+/* section a4 is over */
+
+/* section a5 is start */
+
+#a5{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around
+}
+.get{
+    height: 700px;
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-left: 10%;   
+}
+.get h1{
+    font-size: 50px;
+}
+.get input{
+    height: 60px;
+    width: 500px;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+#mes{
+    height: 120px;
+}
+.get button{
+    height: 50px;
+    width: 200px;
+    background-color: rgba(39, 43, 44, 0.87);
+    border: 1px solid  rgba(39, 43, 44, 0.87) ;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+.get button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+.clients{
+    height: 700px;
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.clients h1{
+    font-size: 50px;
+}
+.img{
+    height: 130px;
+    width: 160px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.img span{
+    font-size: 30px;
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    color: black;
+}
+.client1{
+    height: 350px;
+    width: 600px;
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+}
+.client1 img{
+    position: absolute;
+    top: 280px;
+    right: 200px;
+}
+.client1 p{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+/* section a5 is over */
+
+/* footer is start */
+footer{
+    height: 600px;
+    width: 100%;
+    background-color: #222222;
+    border: 1px solid #222222;
+    position: relative;
+}
+.flogo img{
+    float: left;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.flogo input{
+    height: 70px;
+    width: 600px;
+    font-size: 22px;
+    float: right;
+    margin-right: 35%;
+    margin-top: 3%;
+    padding-left: 20px;
+}
+.flogo button{
+    height: 70px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    cursor: pointer;
+    right: 450px;
+    top: 57px;
+    border: 0px;
+    transition: 1s;
+}
+.flogo button:hover{
+    border: 0px;
+    background-color: white;
+    color: black;
+}
+.foo1{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid white; */
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.use,.news,.company,.contact{
+    height: 300px;
+    width: 20%;
+    /* border: 1px solid white; */
+}
+.use h1{
+    color: white;
+}
+.use a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.news h1{
+    color: white;
+}
+.news p{
+    font-size: 22px;
+    color: white;
+    padding-top: 20px;
+}
+.company h1{
+    color: white;
+}
+.company p{
+    font-size: 22px;
+    color: white;
+    padding-top: 20px;
+}
+.contact h1{
+    color: white;
+}
+.fa-location-dot{
+    font-size: 25px;
+    margin-top: 20px;
+}
+span{
+    color: white;
+    font-size: 25px;
+}
+.fa-phone{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.fa-envelope{
+    font-size: 25px;
+    margin-top: 20px;
+}
