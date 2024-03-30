@@ -1,0 +1,1041 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    height: 100%;
+    width: 15%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-hospital{
+    font-size: 40px;
+    color: #0463FA;
+}
+.logo h1{
+    padding-left: 20px;
+    color: #0463FA;
+}
+header nav{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+header nav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    position: relative;
+}
+header nav ul li a::before{
+    content: "";
+    height: 5px;
+    width: 5%;
+    background-color: #0463FA;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 1s;
+    opacity: 0;
+}
+header nav ul li a:hover:before{
+    width: 100%;
+    opacity: 1;
+}
+header button{
+    height: 100%;
+    width: 10%;
+    color: white;
+    background-color: #0463FA;
+    border: 1px solid #0463FA;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    transition: 2s;
+}
+header button:hover{
+    background-color: #EFF5FF;
+    border: 1px solid #EFF5FF;
+    color: black;
+}
+
+/* header is over */
+
+/*section  a1 is start */
+
+#a1{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.good{
+    height: 900px;
+    width: 50%;
+    /* border: 1px solid black; */
+    background-color: #0463FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goodinfo{
+    height: 500px;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.goodinfo #og{
+    color: white;
+    font-size: 50px;
+    align-self: center;
+
+}
+.good1{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.exp1,.exp2,.exp3{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid white; */
+}
+.exp1 h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.exp1 h2{
+    color: white;
+    font-size: 30px;
+}
+.exp2 h1{
+    color: white;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.exp2 h2{
+    color: white;
+    font-size: 30px;
+}
+.exp3 h1{
+    color: white;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.exp3 h2{
+    color: white;
+    font-size: 30px;
+}
+.cardiology{
+    height: 900px;
+    width: 50%;
+    /* border: 1px solid black; */
+    background-image: url(img/a1.jpg);
+}
+/* section a1 is over */
+
+/* section a2 is start */
+
+#a2{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a2 .about{
+    height: 700px;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#a2 .about .ab1{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.ab1 #aboutimg1{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    right: 0;
+    border-radius: 20px;
+}
+.ab1 #aboutimg2{
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 370px;
+    left: 80px;
+    border: 20px solid white;
+    border-radius: 10px;
+}
+#a2 .about .ab2{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#a2 .about .ab2 .why{
+    height: 100%;
+    width: 95%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;    
+    justify-content: flex-start;
+}
+.about .ab2 .why h1{
+    font-size: 50px;
+    color: #1B2C51;
+}
+.about .ab2 p{
+    font-size: 22px;
+}
+.ab2 .why .quality{
+    height: 150px;
+    width: 500px;
+    /* border: 1px solid black; */
+}
+.ab2 .why .quality button{
+    height: 50px;
+    width: 200px;
+    background-color: #0463FA;
+    border: 1px solid #0463FA;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 1s;
+}
+.ab2 .why .quality button:hover{
+    transform: scale(1.1);
+}
+
+/* section a2 is over */
+
+/* section a3 is start */
+
+#a3{
+    height: 1100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#a3 .h{
+    font-size: 50px;
+}
+#a3 .services{
+    height: 850px;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.car,.pulmonary,.neurology,.orthopedics,.dental,.laboratry{
+    height: 400px;
+    width: 30%;
+    /* border: 1px solid black; */
+    background-color: #EFF5FF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.car .car1{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.car .heart{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #0463FA;
+    background-color: white;
+}
+.car .car1 h1{
+    position: absolute;
+    font-size: 35px;
+    top: 80px;
+}
+.car .car1 p{
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+}
+.car .car1 button{
+    position: absolute;
+    top: 250px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #EFF5FF;
+    border: 1px solid #EFF5FF;
+    transition: 1s;
+}
+.car1 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.pulmonary .pulmonary1{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.pulmonary .pul{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #0463FA;
+    background-color: white;
+}
+.pulmonary .pulmonary1 h1{
+    position: absolute;
+    font-size: 35px;
+    top: 80px;
+}
+.pulmonary .pulmonary1 p{
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+}
+.pulmonary .pulmonary1 button{
+    position: absolute;
+    top: 250px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #EFF5FF;
+    border: 1px solid #EFF5FF;
+    transition: 1s;
+}
+.pulmonary1 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.neurology .neurology1{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.neurology .neu{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #0463FA;
+    background-color: white;
+}
+.neurology .neurology1 h1{
+    position: absolute;
+    font-size: 35px;
+    top: 80px;
+}
+.neurology .neurology1 p{
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+}
+.neurology .neurology1 button{
+    position: absolute;
+    top: 250px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #EFF5FF;
+    border: 1px solid #EFF5FF;
+    transition: 1s;
+}
+.neurology1 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.orthopedics .orthopedics1{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.orthopedics .ort{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #0463FA;
+    background-color: white;
+}
+.orthopedics .orthopedics1 h1{
+    position: absolute;
+    font-size: 35px;
+    top: 80px;
+}
+.orthopedics .orthopedics1 p{
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+}
+.orthopedics .orthopedics1 button{
+    position: absolute;
+    top: 250px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #EFF5FF;
+    border: 1px solid #EFF5FF;
+    transition: 1s;
+}
+.orthopedics1 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.dental .dental1{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.dental .den{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #0463FA;
+    background-color: white;
+}
+.dental .dental1 h1{
+    position: absolute;
+    font-size: 35px;
+    top: 80px;
+}
+.dental .dental1 p{
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+}
+.dental .dental1 button{
+    position: absolute;
+    top: 250px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #EFF5FF;
+    border: 1px solid #EFF5FF;
+    transition: 1s;
+}
+.dental1 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.laboratry .laboratry1{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.laboratry .lab{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #0463FA;
+    background-color: white;
+}
+.laboratry .laboratry1 h1{
+    position: absolute;
+    font-size: 35px;
+    top: 80px;
+}
+.laboratry .laboratry1 p{
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+}
+.laboratry .laboratry1 button{
+    position: absolute;
+    top: 250px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #EFF5FF;
+    border: 1px solid #EFF5FF;
+    transition: 1s;
+}
+.laboratry1 button:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+/* section a3 is over */
+
+/* section a4 is start */
+
+#a4{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#a4 .feature1{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+    background-color: #0463FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature1 .fea{
+    height: 600px;
+    width: 70%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.fea span{
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 50px;
+}
+.fea .why{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 80px;
+}
+.fea p{
+    font-size: 21px;
+    color: white;
+    position: absolute;
+    top: 200px;
+}
+.fea .row{
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+.row1,.row2,.row3,.row4{
+    height: 50%;
+    width: 50%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+#a4 .feature2{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+#a4 .feature2 img{
+    width: 100%;
+    height: 100%;
+}
+.row1 .exp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #0463FA;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+}
+.row1 h1{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.row2 .qua{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #0463FA;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+}
+.row2 h1{ 
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.row3 .pos{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #0463FA;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+}
+.row3 h1{ 
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.row4 .sup{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #0463FA;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+}
+.row4 h1{ 
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+/* section a4 is over */
+
+/* section a5 is start */
+
+#a5{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+#a5 .our{
+    padding-top: 100px;
+    font-size: 50px;
+}
+#a5 .doctors{
+    height: 500px;
+    width: 80%;
+    /* border: 1px solid black;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.doctor1,.doctor2,.doctor3,.doctor4{
+    height: 100%;
+    width: 22%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    text-align: center;
+    background-color: #EFF5FF ;  
+}
+.doctor1 img{
+    height: 80%;
+    width: 100%;
+    border-radius: 20px;
+}
+.doctor1 h1{
+    font-size: 40px;
+} 
+.doctor1 span{
+    font-size: 22px;
+}
+.doctor2 img{
+    height: 80%;
+    width: 100%;
+    border-radius: 20px;
+}
+.doctor2 h1{
+    font-size: 40px;
+} 
+.doctor2 span{
+    font-size: 22px;
+} 
+.doctor3 img{
+    height: 80%;
+    width: 100%;
+    border-radius: 20px;
+}
+.doctor3 h1{
+    font-size: 40px;
+} 
+.doctor3 span{
+    font-size: 22px;
+} 
+.doctor4 img{
+    height: 80%;
+    width: 100%;
+    border-radius: 20px;
+}
+.doctor4 h1{
+    font-size: 40px;
+} 
+.doctor4 span{
+    font-size: 22px;
+} 
+/* section a5 is over */
+
+/* section a6 is start */
+
+#a6{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black;/ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.app{
+    font-size: 50px;
+    position: absolute;
+    top: 30px;
+}
+#a6 .contact{
+    height: 600px;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.make{
+    height: 100%;
+    width: 48%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.make h1{
+    font-size: 50px;
+    color: #1B2C51;
+}
+.make p{
+    font-size: 22px;
+    position: absolute;
+    top: 150px;
+}
+.make .call{
+    /* position: absolute; */
+    top: 150px;
+    height: 150px;
+    width: 100%;
+    background-color: #EFF5FF;
+    position: relative;
+}
+.call .fa-phone{
+    font-size: 30px;
+    color:#0463FA;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.call h1{
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+.call span{
+    font-size: 25px;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    color: #1B2C51;
+}
+.make .mail{
+    position: absolute;
+    top: 450px;
+    height: 150px;
+    width: 100%;
+    background-color: #EFF5FF;
+}
+.mail .fa-envelope{
+    font-size: 30px;
+    color:#0463FA;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.mail h1{
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+.mail span{
+    font-size: 25px;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    color: #1B2C51;
+}
+.book{
+    height: 100%;
+    width: 48%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF5FF;
+}
+.book .book1{
+    height: 90%;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.book1 input{
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-left: 15px;
+}
+.book1 #mes{
+    height: 100px;
+    width: 90%;
+    border-radius: 20px;
+}
+.book1 button{
+    height: 60px;
+    width: 90%;
+    background-color: #0463FA;
+    border: 1px solid #0463FA;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 2s;
+}
+.book1 button:hover{
+    background: transparent;
+    border: transparent;
+    color: black;
+}
+
+/* section a6 is over */
+
+/* footer is start */
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #1B2C51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foo1{
+    height: 350px;
+    width: 80%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.address,.servicesfooter,.quick,.new{
+    height: 100%;
+    width: 25%;
+    /* border: 1px solid white; */
+}
+.address h1{
+    color: white;
+}
+.fa-location-dot{
+    font-size: 25px;
+    color: white;
+    padding-top: 50px;
+}
+.address h2{
+    color: white;
+    font-size: 25px;
+    display: inline;
+    padding-left: 20px;
+}
+.address .fa-phone{
+    font-size: 25px;
+    color: white;
+    padding-top: 30px;
+}
+.address .fa-envelope{
+    font-size: 25px;
+    color: white;
+    padding-top: 30px;
+}
+.servicesfooter h1{
+    color: white;
+}
+.servicesfooter #a{
+    margin-top: 30px;
+}
+.servicesfooter a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+}
+.quick h1{
+    color: white;
+}
+.quick #b{
+    margin-top:30px;
+}
+.quick a{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+}
+.new h1{
+    color: white;
+}
+.new p{
+    font-size: 22px;
+    color: white;
+    padding-top: 30px;
+}
+.new input{
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.new button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #0463FA;
+    border: 1px solid #0463FA;
+    color: white;
+    font-size: 20px;
+}
